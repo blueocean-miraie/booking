@@ -2,8 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://moopet.appsmith.com/app/zeri-cruisebooking-appsmith-4/bookinglookup-6979d683d939ed2cf9740a87?branch=master">
   <title>予約照会</title>
+  <script>
+    (function() {
+      var baseUrl = 'https://moopet.appsmith.com/app/zeri-cruisebooking-appsmith-4/bookinglookup-6979d683d939ed2cf9740a87?branch=master';
+      var params = window.location.search;
+      if (params) {
+        baseUrl += '&' + params.substring(1);
+      }
+      window.location.replace(baseUrl);
+    })();
+  </script>
 </head>
 <body>
   <p>予約照会ページへ移動中...</p>
