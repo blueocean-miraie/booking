@@ -2,8 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://moopet.appsmith.com/app/zeri-cruisebooking-appsmith-4/startbooking-6979d683d939ed2cf9740a88?branch=master">
-  <title>クルーズ予約</title>
+  <title>帆船 BLUE OCEAN みらいへ 予約</title>
+  <script>
+    (function() {
+      var baseUrl = 'https://moopet.appsmith.com/app/zeri-cruisebooking-appsmith-4/startbooking-6979d683d939ed2cf9740a88?branch=master';
+      var params = window.location.search;
+      if (params) {
+        baseUrl += '&' + params.substring(1);
+      }
+      window.location.replace(baseUrl);
+    })();
+  </script>
 </head>
 <body>
   <p>予約ページへ移動中...</p>
